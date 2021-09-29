@@ -353,6 +353,7 @@ clip-path: polygon(15% 0, 1000% 0%, 0% 1000%, 0 100%);
     padding-top: 8%;
     }
   .nav-links{
+    padding: 22%;
     width: 100% !important;
     margin-left: 0 !important;
   }
@@ -716,7 +717,7 @@ footer {
 .footer-nav {
     float: none !important;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
 }
 }
 footer {
