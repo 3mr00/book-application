@@ -353,13 +353,12 @@ clip-path: polygon(15% 0, 1000% 0%, 0% 1000%, 0 100%);
     padding-top: 8%;
     }
   .nav-links{
-    padding: 22%;
     width: 100% !important;
     margin-left: 0 !important;
   }
   .button-nav {
     clip-path: none !important;
-    padding: 11px 46px !important;
+    padding: 11px 33px !important;
   }
  
     .hamburger{
@@ -430,7 +429,16 @@ clip-path: polygon(15% 0, 1000% 0%, 0% 1000%, 0 100%);
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
-
+@media screen and (max-width: 1024px){
+.nav-links {
+    padding: 10% !important;
+}
+}
+@media screen and (max-width: 425px){
+  .nav-links {
+      padding: 22% !important ;
+  }
+  }
 /*************************
       sec-1
 ************************/
